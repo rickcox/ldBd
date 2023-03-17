@@ -74,18 +74,6 @@
   "project": {
     "files": [
       {
-        "name": "ldBd.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 1012,
-          "pos_y": 126,
-          "size_x": 847,
-          "size_y": 954
-        }
-      },
-      {
         "name": "ldBd.kicad_pcb",
         "open": true,
         "window": {
