@@ -25,15 +25,22 @@ I haven't generated an official BOM, but the parts list is fairly obvious:
 - R4 is a 0.5 ohm, 25 watt power resistor
 - J1-17 (17 items) are banana jacks. I used black on one side and red on the other, but .. whatever you want.
 - If you want the current sense option, J18 is a 1X2 0.1" pin header, and R8 is a 0.002 ohm 1206 sized surface mount resistor. Both are easy to hand solder.
+- You will also need some M3 bolts&nuts - or similar - to hold the resistors down.
+- and of course you need to make or buy banana plug jumpers.
 
 Talking about parts; I am US based. The load resistors are available from most any electronics
 distributor - Digikey, Mouser, Newark, ...  However, the only place I could find banana jacks
-at a reasonable price (I don't consider > $1 each to be reasonable) was from China.  The jacks I 
-used were from AliExpress - and YES as you can see from the next picture - *the same supplier gave me 2 different types*!
+and plugs at a reasonable price (I don't consider > $1 each to be reasonable) was from China.  
+The jacks&plugs I used were from AliExpress - and YES as you can see from the next picture - 
+*the same supplier gave me 2 different types*!
 
 I 3d printed a simple base for the board.  The stl file for that is in the case/ directory.
 And here's ***my*** finished product!
 o![Finished ldBd](/doc/ldBd-all.jpg)
+
+Usage is simple - you need to know `e = i * r` and how to calculate effective parallel and series resistances.
+Also - ***Use common sense***. Do not exceed the resistor ratings.  I have found dissipating even 20 watts
+for 5-10 minutes on this board can make it get very warm. Use a fan if needed to increase heat transfer!
 
 You may use, share, or modify this design, but per the CC BY 4.0 License, please give "Rick Cox" credit.
 
