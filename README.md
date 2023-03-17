@@ -1,2 +1,2 @@
 # ldBd
-Simple Load Boardfor Power Supply Testing
+Simple Load Board for Power Supply Testing
