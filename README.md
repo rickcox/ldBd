@@ -17,6 +17,7 @@ modify it further, if you wish.
 ![A View of the Raw Board](doc/ldBd.jpg)
 
 The power resistors are connected to the board mounting holes via short soldered jumpers.
+The whole top and bottom surfaces are mostly big copper pours, so resistor heat is spread across the entire board.
 
 I haven't generated an official BOM, but the parts list is fairly obvious:
 - R1 is a 4 ohm, 50 watt power resistor
@@ -24,7 +25,7 @@ I haven't generated an official BOM, but the parts list is fairly obvious:
 - R3 is a 1 ohm, 50 watt power resistor
 - R4 is a 0.5 ohm, 25 watt power resistor
 - J1-17 (17 items) are banana jacks. I used black on one side and red on the other, but .. whatever you want.
-- If you want the current sense option, J18 is a 1X2 0.1" pin header, and R8 is a 0.002 ohm 1206 sized surface mount resistor. Both are easy to hand solder.
+- If you want the current sense option, J18 is a 1X2 0.1" pin header, and R5 is a 0.002 ohm 1206 sized surface mount resistor. Both are easy to hand solder.
 - You will also need some M3 bolts&nuts - or similar - to hold the resistors down.
 - and of course you need to make or buy banana plug jumpers.
 
@@ -35,10 +36,13 @@ The jacks&plugs I used were from AliExpress - and YES as you can see from the ne
 *the same supplier gave me 2 different types*!
 
 I 3d printed a simple base for the board.  The stl file for that is in the case/ directory.
+Since the boardi CAN get warm,I would recommend PETG or an alternate material with a higher
+glass transition temperature than PLA.
 And here's ***my*** finished product!
-o![Finished ldBd](/doc/ldBd-all.jpg)
+![Finished ldBd](/doc/ldBd-all.jpg)
 
 Usage is simple - you need to know `e = i * r` and how to calculate effective parallel and series resistances.
+(Again, see the notes on the back of the board for some ideas)
 Also - ***Use common sense***. Do not exceed the resistor ratings.  I have found dissipating even 20 watts
 for 5-10 minutes on this board can make it get very warm. Use a fan if needed to increase heat transfer!
 
