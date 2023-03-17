@@ -9,9 +9,9 @@ be connected various ways using banana plug jumpers.
 (See notes on the back of the PCB for some options)
 It's a bit if a squeeze getting everything to fit, but staying at 100X100 keeps it inexpensive.
 
-You can have 5 bare PCB's fabricated for you in China for just a few dolilars (plus shipping!)
-For example $2.00 from https://jlcpcb.com. The files needed for PCB manufacturing are in the gerbers/ 
-directory.  The design was done in KiCad version 7.0, and the kicad* files can be used to
+You can have 5 bare PCB's fabricated for you in China for just a few dollars plus shipping.
+(For example $2.00 from https://jlcpcb.com) The files needed for PCB manufacturing are in the gerbers/ 
+directory.  The design was done in KiCad version 7.0, and the files with extensions "kicad_*" can be used to
 modify it further, if you wish.
 
 ![A View of the Raw Board](doc/ldBd.jpg)
@@ -19,7 +19,7 @@ modify it further, if you wish.
 The power resistors are connected to the board mounting holes via short soldered jumpers.
 The whole top and bottom surfaces are mostly big copper pours, so resistor heat is spread across the entire board.
 
-I haven't generated an official BOM, but the parts list is fairly obvious:
+I haven't generated an official BOM, but the parts list is fairly simple:
 - R1 is a 4 ohm, 50 watt power resistor
 - R2 is a 2 ohm, 50 watt power resistor
 - R3 is a 1 ohm, 50 watt power resistor
@@ -31,14 +31,16 @@ I haven't generated an official BOM, but the parts list is fairly obvious:
 
 Talking about parts; I am US based. The load resistors are available from most any electronics
 distributor - Digikey, Mouser, Newark, ...  However, the only place I could find banana jacks
-and plugs at a reasonable price (I don't consider > $1 each to be reasonable) was from China.  
+and plugs at a reasonable price (I don't consider > $1 each to be reasonable) was from China.
 The jacks&plugs I used were from AliExpress - and YES as you can see from the next picture - 
 *the same supplier gave me 2 different types*!
 
 I 3d printed a simple base for the board.  The stl file for that is in the case/ directory.
-Since the boardi CAN get warm,I would recommend PETG or an alternate material with a higher
+Since the board CAN get quite warm,I would recommend PETG or an alternate material with a higher
 glass transition temperature than PLA.
+
 And here's ***my*** finished product!
+
 ![Finished ldBd](/doc/ldBd-all.jpg)
 
 Usage is simple - you need to know `e = i * r` and how to calculate effective parallel and series resistances.
