@@ -1,0 +1,47 @@
+PCB statistics report
+=====================
+- Date: Thu 16 Mar 2023 07:50:49 PM PDT
+- Project: ldBd
+- Board name: ldBd
+
+Board
+-----
+- Width: 100.0000 mm
+- Height: 100.0000 mm
+- Area: 9978.3364 mm²
+
+Pads
+----
+- Through hole: 29
+- SMD: 2
+- Connector: 0
+- NPTH: 14
+
+Vias
+----
+- Through vias: 197
+- Blind/buried: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |         25 |         0 |    25 |
+|SMD:          |          1 |         0 |     1 |
+|Unspecified:  |          7 |         0 |     7 |
+|Total:        |         33 |         0 |    33 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|------------|
+|   168 | Round | 0.5000 mm | 0.5000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    29 | Round | 0.7000 mm | 0.7000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    17 | Round | 5.5000 mm | 5.5000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     8 | Round | 3.3000 mm | 3.3000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     8 | Round | 1.5000 mm | 1.5000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     6 | Round | 3.2000 mm | 3.2000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 1.0000 mm | 1.0000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
