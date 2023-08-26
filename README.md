@@ -10,7 +10,7 @@ be connected various ways using banana plug jumpers.
 
 It's a bit of a squeeze getting everything to fit, but staying at 100mmX100mm keeps board manufacturing inexpensive.
 You can have 5 bare PCB's fabricated for you in China for just a few dollars plus shipping.
-(For example $2.00 from https://jlcpcb.com)
+(For example I paid $2.00 + shipping for 5 bare boards from https://jlcpcb.com)
 
 The files needed for PCB manufacturing are in the 'gerbers/'
 directory.  The design was done in KiCad version 7, and the files with extensions "kicad_*" can be used to
@@ -46,7 +46,7 @@ And here's ***my*** finished product!
 ![Finished ldBd](/doc/ldBd-all.jpg)
 
 Usage is simple - you need to know `e = i * r` and how to calculate effective parallel and series resistances.
-(Again, see the notes on the back of the board for some ideas ![back](/doc/ldBd-back.pdf) )
+(Again, see the notes on the back of the board for some ideas ![back](doc/ldBd-back.pdf) )
 Also - ***Use common sense***. Do not exceed the resistor ratings! I have found dissipating even 20 watts continuously
 for 5-10 minutes on this board can make it get very warm. Use a fan if needed to increase heat transfer.
 
