@@ -7,10 +7,12 @@ This goes opposite that - it is ***trivially simple***.
 This is a simple 2 sided PCB 100mm X 100mm with 50 and 25 watt power resistors that can
 be connected various ways using banana plug jumpers.
 (See notes on the back of the PCB for some options)
-It's a bit if a squeeze getting everything to fit, but staying at 100X100 keeps it inexpensive.
 
+It's a bit of a squeeze getting everything to fit, but staying at 100mmX100mm keeps board manufacturing inexpensive.
 You can have 5 bare PCB's fabricated for you in China for just a few dollars plus shipping.
-(For example $2.00 from https://jlcpcb.com) The files needed for PCB manufacturing are in the 'gerbers/'
+(For example $2.00 from https://jlcpcb.com)
+
+The files needed for PCB manufacturing are in the 'gerbers/'
 directory.  The design was done in KiCad version 7, and the files with extensions "kicad_*" can be used to
 modify it further, if you wish.
 
@@ -20,6 +22,7 @@ The power resistors are connected to the board mounting holes via short soldered
 The whole top and bottom surfaces are mostly big copper pours, so resistor heat is spread across the entire board.
 
 I haven't generated an official BOM, but the parts list is fairly simple:
+
 - R1 is a 4 ohm, 50 watt power resistor
 - R2 is a 2 ohm, 50 watt power resistor
 - R3 is a 1 ohm, 50 watt power resistor
@@ -29,7 +32,7 @@ I haven't generated an official BOM, but the parts list is fairly simple:
 - You will also need some M3 bolts&nuts - or similar - to hold the resistors down.
 - and of course you need to make or buy banana plug jumpers.
 
-Talking about parts; I am US based. The load resistors are available from most any electronics
+Talking about parts; I am US based. The load resistors are available at reasonable prices from most any electronics
 distributor - Digikey, Mouser, Newark, etc.  However, the only place I could find banana jacks
 and plugs at a reasonable price (I don't consider > $1 each to be reasonable) was from China.
 The jacks&plugs I used were from AliExpress - and YES as you can see if you look closely at the next picture - 
@@ -44,7 +47,7 @@ And here's ***my*** finished product!
 
 Usage is simple - you need to know `e = i * r` and how to calculate effective parallel and series resistances.
 (Again, see the notes on the back of the board for some ideas ![back](/doc/ldBd-back.pdf) )
-Also - ***Use common sense***. Do not exceed the resistor ratings! I have found dissipating even 20 watts
+Also - ***Use common sense***. Do not exceed the resistor ratings! I have found dissipating even 20 watts continuously
 for 5-10 minutes on this board can make it get very warm. Use a fan if needed to increase heat transfer.
 
 This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by/4.0/
