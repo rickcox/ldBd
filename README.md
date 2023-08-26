@@ -47,8 +47,7 @@ And here's ***my*** finished product!
 
 Usage is simple - you need to know `e = i * r` and how to calculate effective parallel and series resistances.
 (Again, see the notes on the back of the board for some ideas)
-
-![back](doc/ldBd-back.jpg) 
+![back](doc/ldBd-back.pdf) 
 
 Also - ***Use common sense***. Do not exceed the resistor ratings! I have found dissipating even 20 watts continuously
 for 5-10 minutes on this board can make it get very warm. Use a fan if needed to increase heat transfer.
