@@ -38,15 +38,15 @@ and plugs at a reasonable price (I don't consider > $1 each to be reasonable) wa
 The jacks&plugs I used were from AliExpress - and YES as you can see if you look closely at the next picture - 
 *the same supplier gave me 2 different styles*!
 
-I 3d printed a simple base for the board.  The stl file for that is in the case/ directory. Use M3 bolts to fasten the board down.
+I 3d printed a simple base for the board.  The stl file for that is in the 'case/' directory. Use M3 bolts to fasten the board down.
 Since the board CAN get quite warm, PETG or an alternate material with a higher glass transition temperature than PLA is recommended.
 
 And here's ***my*** finished product!
 
-![Finished ldBd](/doc/ldBd-all.jpg)
+![Finished ldBd](doc/ldBd-all.jpg)
 
 Usage is simple - you need to know `e = i * r` and how to calculate effective parallel and series resistances.
-(Again, see the notes on the back of the board for some ideas ![back](doc/ldBd-back.pdf) )
+(Again, see the notes on the back of the board for some ideas ![back](doc/ldBd-back.pdf) 
 Also - ***Use common sense***. Do not exceed the resistor ratings! I have found dissipating even 20 watts continuously
 for 5-10 minutes on this board can make it get very warm. Use a fan if needed to increase heat transfer.
 
