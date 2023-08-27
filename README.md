@@ -9,7 +9,7 @@ be connected various ways using banana plug jumpers.
 (See notes on the back of the PCB for some options)
 
 It's a bit of a squeeze getting everything to fit, but staying at 100mmX100mm keeps board manufacturing inexpensive.
-You can have 5 bare PCB's fabricated for you in China for just a few dollars plus shipping.
+You can have bare PCB's fabricated for you for just a few dollars shipping.
 (For example I paid $2.00 + shipping for 5 bare boards from https://jlcpcb.com)
 
 The files needed for PCB manufacturing are in the 'gerbers/'
